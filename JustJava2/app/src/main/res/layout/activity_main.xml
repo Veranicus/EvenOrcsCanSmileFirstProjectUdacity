@@ -1,0 +1,94 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingLeft="16dp"
+android:paddingRight="16dp"
+android:orientation="vertical">
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/firstTextInput"
+    android:inputType="text"
+    android:hint="Enter your name please :)"
+    />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Toppings"
+    android:padding="16dp" />
+
+<CheckBox
+    android:id="@+id/whipped_cream_checkbox"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/topping_names"
+    android:padding="24dp"
+    android:textSize="16sp" />
+
+<CheckBox
+    android:id="@+id/chocolate_topping_checkbox"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Chocolate Topping"
+    android:padding="24dp"
+    />
+
+
+<TextView
+    android:id="@+id/textView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:text="Quantity"
+    android:textSize="16sp" />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <Button
+        android:layout_marginTop="16sp"
+        android:layout_height="wrap_content"
+        android:layout_width="43dp"
+        android:layout_marginLeft="15dp"
+        android:text="-"
+        android:onClick="decrement" />
+
+    <TextView
+        android:id="@+id/quantity_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp" />
+
+    <Button
+        android:layout_marginTop="16sp"
+        android:layout_marginLeft="16dp"
+        android:layout_height="wrap_content"
+        android:layout_width="43dp"
+        android:text="+"
+        android:onClick="increment"
+        android:id="@+id/incrementButton" />
+
+</LinearLayout>
+
+
+<Button
+    android:layout_marginTop="16sp"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:text="Order"
+    android:onClick="submitOrder"
+    android:id="@+id/button" />
+
+</LinearLayout>
+</ScrollView>

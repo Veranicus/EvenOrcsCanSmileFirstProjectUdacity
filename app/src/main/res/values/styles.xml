@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:fontFamily">monospace</item>
+    </style>
+
+    <style name="TextViews">
+        <item name="android:textColor">#1565C0</item>
+    </style>
+
+    <style name="Regards">
+        <item name="android:textColor">#7E57C2</item>
+        <item name="android:fontFamily">italic</item>
+    </style>
+
+</resources>

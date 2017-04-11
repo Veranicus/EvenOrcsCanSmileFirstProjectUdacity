@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">"Even Orcs can smile "</string>
+    <string name="HeaderText">Dear Martha! I am an example, that not every orc</string>
+    <string name="BottomText">Must be bad!</string>
+    <string name="Regards">-Yours sincerely, Mogmog</string>
+</resources>

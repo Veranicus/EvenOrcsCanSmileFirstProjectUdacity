@@ -1,0 +1,12 @@
+<resources>
+    <dimen name="textview_height">25dp</dimen>
+    <dimen name="textview_width">150dp</dimen>
+    <dimen name="ball_radius">30dp</dimen>
+    <dimen name="font_size">30sp</dimen>
+    <dimen name="PaddingSincerely">20dp</dimen>
+    <dimen name="PaddingTextView1">25dp</dimen>
+    <dimen name="PaddingTextView2">40dp</dimen>
+    <dimen name="MarginHeart">35dp</dimen>
+
+
+</resources>

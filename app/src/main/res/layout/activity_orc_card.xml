@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_orc_card"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.android.evenorcscansmile.OrcCard">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/orc2" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/TextViews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:padding="@dimen/PaddingTextView1"
+        android:text="@string/HeaderText"
+        android:textSize="@dimen/font_size" />
+
+    <TextView
+        android:id="@+id/bottomtextview"
+        style="@style/TextViews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:padding="@dimen/PaddingTextView2"
+        android:text="@string/BottomText"
+        android:textSize="@dimen/font_size" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/Regards"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/bottomtextview"
+        android:layout_alignRight="@id/bottomtextview"
+        android:padding="@dimen/PaddingSincerely"
+        android:text="@string/Regards" />
+</RelativeLayout>
